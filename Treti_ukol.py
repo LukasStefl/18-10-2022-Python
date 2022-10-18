@@ -1,5 +1,5 @@
 l, u, p, d = 0, 0, 0, 0
-s = "R@m@_f0rtu9e$"
+s = input()
 if (len(s) >= 8):
     for i in s:
  
