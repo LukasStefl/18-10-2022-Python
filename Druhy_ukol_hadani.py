@@ -4,6 +4,6 @@ n = 0
 while (number != n):
     n = int(input());
     if n == number:
-        print("\nUhodl jsi\n");
+        print("Uhodl jsi\n");
     elif n != number:
-        print("\nHádej znovu.\n");
+        print("Hádej znovu.\n");
