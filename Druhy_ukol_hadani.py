@@ -1,6 +1,5 @@
-from random import seed
-from random import randint
-seed(1)
-for _ in range(10):
-	value = randint(0, 10)
-	print(value)
+import random
+number = random.randint(0,11)
+n = 0
+while (number != n):
+    n = int(input());
