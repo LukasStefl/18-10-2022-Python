@@ -1,15 +1,8 @@
-input = 41325;
-numbers = input.split();
+def pattern(n):
+    for L in n:
+        print("|", end = " " )
+        print("*" * int(L))
 
 
-n = int(input())  
-# outer loop to handle number of rows  
-for i in range(0, n):  
-    # inner loop to handle number of columns  
-    # values is changing according to outer loop  
-        for j in range(0, i + 1):  
-            # printing stars  
-            print("* ", end="")       
-  
-        # ending line after each row  
-        print()  
+n = "01325"
+pattern(n)
